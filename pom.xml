@@ -5,8 +5,8 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>GearEE-Baker</artifactId>
     <version>4.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <name>GearEE-Spring</name>
+    <packaging>pom</packaging>
+    <name>GearEE-Baker</name>
     <description>Dynamic Projection Manager Framework</description>
     <url>https://github.com/Andy-Shao/GearEE-Baker</url>
     <inceptionYear>2017</inceptionYear>
@@ -35,6 +35,12 @@
         <url>https://issues.sonatype.org/browse/OSSRH-10785</url>
     </issueManagement>
     
+    <modules>
+        <module>baker-conf</module>
+        <module>baker-coordination</module>
+        <module>baker-packager</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
