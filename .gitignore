@@ -1,5 +1,9 @@
 .svn
-target
+target/
 .classpath
 .project
 .settings/
+*/.classpath
+*/.project
+*/.settings/
+*/target/
