@@ -16,6 +16,6 @@
     <inceptionYear>2017</inceptionYear>
 
     <modules>
-        <module>core</module>
+        <module>spring-cloud-eureka</module>
     </modules>
 </project>

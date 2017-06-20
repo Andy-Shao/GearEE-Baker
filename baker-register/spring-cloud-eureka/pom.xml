@@ -8,9 +8,9 @@
         <version>4.0-SNAPSHOT</version>
     </parent>
     <groupId>com.github.Andy-Shao</groupId>
-    <artifactId>GearEE-Baker-Register-Core</artifactId>
+    <artifactId>GearEE-Baker-Register-Spring</artifactId>
     <packaging>jar</packaging>
-    <name>GearEE-Baker-Register-Core</name>
+    <name>GearEE-Baker-Register-Spring</name>
     <description>Dynamic Projection Manager Framework</description>
     <url>https://github.com/Andy-Shao/GearEE-Baker</url>
     <inceptionYear>2017</inceptionYear>
