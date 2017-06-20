@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: GearEE-Baker-Register-Eureka
+  profile:
+    active: local
