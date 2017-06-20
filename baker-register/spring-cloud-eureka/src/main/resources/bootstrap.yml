@@ -3,6 +3,6 @@ spring:
     config:
       uri: http://localhost:8888
   application:
-    name: GearEE-Baker-Register-Eureka
+    name: Baker-Register-Service
   profiles:
     active: local
