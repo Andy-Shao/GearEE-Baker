@@ -1,5 +1,5 @@
 spring:
   application:
-    name: Stable-Configure-Service
+    name: Baker-Static-Configure-Service
   profiles:
     active: local
