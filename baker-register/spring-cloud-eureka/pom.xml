@@ -54,7 +54,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
             <version>${spring.cloud.version}</version>
         </dependency>
     </dependencies>
