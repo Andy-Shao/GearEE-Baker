@@ -42,7 +42,6 @@
     		<artifactId>GearEE-Baker-Conf-Core</artifactId>
     		<version>${gear.version}</version>
     	</dependency>
-    	<!-- 
     	<dependency>
     		<groupId>org.springframework.cloud</groupId>
     		<artifactId>spring-cloud-starter-config</artifactId>
@@ -52,16 +51,6 @@
     		<groupId>org.springframework.cloud</groupId>
     		<artifactId>spring-cloud-config-server</artifactId>
     		<version>${spring.cloud.version}</version>
-    	</dependency>
-    	-->
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-eureka</artifactId>
-    		<version>${spring.cloud.version}</version>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.boot</groupId>
-    		<artifactId>spring-boot-starter-web</artifactId>
     	</dependency>
     </dependencies>
 </project>
