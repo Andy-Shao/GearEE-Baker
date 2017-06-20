@@ -1,4 +1,4 @@
-package com.github.andyshaox.baker;
+package com.github.andyshaox.baker.conf;
 
 /**
  * 
