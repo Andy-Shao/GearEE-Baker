@@ -17,5 +17,6 @@
 
     <modules>
         <module>core</module>
+        <module>stable-config</module>
     </modules>
 </project>
