@@ -45,7 +45,7 @@ public class RestStableConfService implements StableConfService {
         return null;
     }
 
-    @RequestMapping("/getStableArgs")
+    @RequestMapping("/isExistCoordination")
     @Override
     public boolean isExistCoordination(@RequestParam("coordinationType") String coordiantionType) {
         // TODO Auto-generated method stub
