@@ -1,4 +1,4 @@
-package com.github.andyshaox.baker.conf;
+package com.github.andyshaox.baker.conf.annotation;
 
 /**
  * 
