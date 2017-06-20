@@ -39,6 +39,7 @@
         <module>baker-conf</module>
         <module>baker-coordination</module>
         <module>baker-packager</module>
+        <module>baker-register</module>
     </modules>
 
     <properties>
