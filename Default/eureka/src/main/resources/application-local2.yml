@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Baker-Register-Service
+
+server:
+  port: 8762
+  
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8763/eureka/               
