@@ -9,9 +9,13 @@
     </parent>
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>GearEE-Baker-Coordination</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>GearEE-Baker-Coordination</name>
     <description>Dynamic Projection Manager Framework</description>
     <url>https://github.com/Andy-Shao/GearEE-Baker</url>
     <inceptionYear>2017</inceptionYear>
+
+    <modules>
+        <module>core</module>
+    </modules>
 </project>

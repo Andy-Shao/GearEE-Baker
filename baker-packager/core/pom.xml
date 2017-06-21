@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.github.Andy-Shao</groupId>
-        <artifactId>GearEE-Baker</artifactId>
+        <artifactId>GearEE-Baker-Packager</artifactId>
         <version>4.0-SNAPSHOT</version>
     </parent>
     <groupId>com.github.Andy-Shao</groupId>
-    <artifactId>GearEE-Baker-Packager</artifactId>
+    <artifactId>GearEE-Baker-Packager-Core</artifactId>
     <packaging>jar</packaging>
-    <name>GearEE-Baker-Packager</name>
+    <name>GearEE-Baker-Packager-Core</name>
     <description>Dynamic Projection Manager Framework</description>
     <url>https://github.com/Andy-Shao/GearEE-Baker</url>
     <inceptionYear>2017</inceptionYear>
