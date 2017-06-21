@@ -1,4 +1,4 @@
-package com.github.andyshaox.baker.packager;
+package com.github.andyshaox.baker.core;
 
 /**
  * 
@@ -9,7 +9,7 @@ package com.github.andyshaox.baker.packager;
  * @author Andy.Shao
  *
  */
-public interface Task {
+public interface TaskInfo {
     String taskName();
-    boolean isRunable();
+    boolean isRunnable();
 }

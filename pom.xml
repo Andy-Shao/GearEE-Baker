@@ -36,6 +36,7 @@
     </issueManagement>
     
     <modules>
+        <module>baker-core</module>
         <module>baker-conf</module>
         <module>baker-coordination</module>
         <module>baker-packager</module>
