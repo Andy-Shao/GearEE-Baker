@@ -16,6 +16,5 @@
     <inceptionYear>2017</inceptionYear>
 
     <modules>
-        <module>spring-cloud-configure</module>
     </modules>
 </project>
