@@ -2,8 +2,8 @@ package com.github.andyshaox.baker.conf;
 
 import java.util.Map;
 
-import com.github.andyshaox.baker.conf.vo.CoordinationStableArgs;
-import com.github.andyshaox.baker.conf.vo.PackagerStableArgs;
+import com.github.andyshaox.baker.conf.vo.CoordinationStaticArgs;
+import com.github.andyshaox.baker.conf.vo.PackagerStaticArgs;
 
 /**
  * 
@@ -15,13 +15,13 @@ import com.github.andyshaox.baker.conf.vo.PackagerStableArgs;
  * @author Andy.Shao
  *
  */
-public interface StableConfService {
+public interface StaticConfService {
     /**
      * return all of stable configures
      * 
      * @return if doesn't exist then return a empty map
      */
-    Map<String , CoordinationStableArgs> coordinationStableArgsMapping();
+    Map<String , CoordinationStaticArgs> coordinationStableArgsMapping();
 
     /**
      * get a stable configure by packagerType
@@ -29,7 +29,7 @@ public interface StableConfService {
      * @param packagerType packageType
      * @return if doesn't exist then return null
      */
-    PackagerStableArgs getPackagerArgs(String packagerType);
+    PackagerStaticArgs getPackagerArgs(String packagerType);
 
     /**
      * get a stable configure informations
@@ -37,7 +37,7 @@ public interface StableConfService {
      * @param coordinationType stable type
      * @return if doesn't exist then return null
      */
-    CoordinationStableArgs getStableArgs(String coordinationType);
+    CoordinationStaticArgs getStableArgs(String coordinationType);
 
     /**
      * if and only if it exists then return true
@@ -60,5 +60,5 @@ public interface StableConfService {
      * 
      * @return if doesn't exist then return a empty list
      */
-    Map<String , PackagerStableArgs> PackagerStableArgsMapping();
+    Map<String , PackagerStaticArgs> PackagerStableArgsMapping();
 }
