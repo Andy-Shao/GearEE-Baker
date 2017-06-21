@@ -12,9 +12,9 @@ import com.github.andyshao.util.TimeClip;
  * @author Andy.Shao
  *
  */
-public interface TaskProcessResult {
-    String processMatchineUri();
-    TimeClip publishingTimeClip();
-    ByteSize memorySize();
+public interface TaskRunningStatus {
+    String runningMatchineUri();
+    TimeClip runningTime();
+    ByteSize memeorySize();
     ByteSize diskSize();
 }
