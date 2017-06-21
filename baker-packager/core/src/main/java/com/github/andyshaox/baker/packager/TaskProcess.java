@@ -1,6 +1,8 @@
 package com.github.andyshaox.baker.packager;
 
+import com.github.andyshaox.baker.core.ResultCode;
 import com.github.andyshaox.baker.core.TaskInfo;
+import com.github.andyshaox.baker.core.TaskProcessResult;
 
 /**
  * 
@@ -12,5 +14,5 @@ import com.github.andyshaox.baker.core.TaskInfo;
  *
  */
 public interface TaskProcess {
-    void process(TaskInfo taskInfo) throws TaskProcessException;
+    ResultCode<TaskProcessResult> process(TaskInfo taskInfo) throws TaskProcessException;
 }
