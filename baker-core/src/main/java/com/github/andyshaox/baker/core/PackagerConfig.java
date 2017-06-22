@@ -16,5 +16,5 @@ public interface PackagerConfig {
     boolean isValid();
     int getMaxTaskNum();
     ByteSize getMaxDiskSize();
-    ByteSize perTaskMaxDiskSize();
+    ByteSize getPerTaskMaxDiskSize();
 }

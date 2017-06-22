@@ -17,7 +17,7 @@ public class ClouadPackagerConf implements PackagerConfig {
     private int maxTaskNum;
     @Value("${Baker.packager.maxDiskSize}")
     private String maxDiskSize;
-    @Value("${Baker.packager.perTaskMaxDisSize}")
+    @Value("${Baker.packager.perTaskMaxDiskSize}")
     private String perTaskMaxDiskSize;
 
     @Override
@@ -41,7 +41,7 @@ public class ClouadPackagerConf implements PackagerConfig {
     }
 
     @Override
-    public ByteSize perTaskMaxDiskSize() {
+    public ByteSize getPerTaskMaxDiskSize() {
         return SimpleByteSize.covertToString(this.perTaskMaxDiskSize);
     }
 
