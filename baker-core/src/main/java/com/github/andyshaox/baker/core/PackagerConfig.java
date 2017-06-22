@@ -1,5 +1,7 @@
 package com.github.andyshaox.baker.core;
 
+import com.github.andyshao.lang.number.ByteSize;
+
 /**
  * 
  * Title: Packager configure informations<br>
@@ -10,6 +12,9 @@ package com.github.andyshaox.baker.core;
  *
  */
 public interface PackagerConfig {
-    String packagerType();
+    String getPackagerType();
     boolean isValid();
+    int getMaxTaskNum();
+    ByteSize getMaxDiskSize();
+    ByteSize perTaskMaxDiskSize();
 }

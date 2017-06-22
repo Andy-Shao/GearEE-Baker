@@ -4,3 +4,7 @@ server:
 Baker:
   packager:
     type: coordination01
+    valid: true
+    maxTaskNum: 20
+    maxDiskSize: 10GB
+    perTaskMaxDiskSize: 1GB
