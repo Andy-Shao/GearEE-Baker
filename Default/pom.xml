@@ -43,6 +43,7 @@
     <modules>
         <module>auto-configure</module>
         <module>eureka</module>
+        <module>coordination</module>
     </modules>
 
     <properties>
