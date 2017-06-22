@@ -1,2 +1,5 @@
-coordination:
-  type: coordination01
+Baker:
+  coordination:
+    type: coordination01
+server:
+  port: 9002
