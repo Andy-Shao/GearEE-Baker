@@ -16,11 +16,11 @@
     <inceptionYear>2017</inceptionYear>
 
     <dependencies>
-        <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
             <version>${spring.cloud.version}</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>

@@ -1,0 +1,3 @@
+mvn clean spring-boot:run -Drun.profiles=local
+
+java -jar *.jar -Dspring.profiles.active=local
