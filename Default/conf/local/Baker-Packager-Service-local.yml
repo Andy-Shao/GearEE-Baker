@@ -1,0 +1,6 @@
+server:
+  port: 9002
+  
+Baker:
+  packager:
+    type: coordination01
