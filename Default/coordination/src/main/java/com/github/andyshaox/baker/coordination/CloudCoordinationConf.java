@@ -18,17 +18,17 @@ import com.github.andyshaox.baker.core.CoordinationConfig;
 public class CloudCoordinationConf implements CoordinationConfig {
     @Value("${Baker.coordination.type}")
     private String coordinationType;
-    @Value("${Baker.coordination.isValid}")
-    private boolean isValid;
+    @Value("${Baker.coordination.valid}")
+    private boolean valid;
 
     @Override
-    public String coordiantionType() {
+    public String getCoordiantionType() {
         return this.coordinationType;
     }
 
     @Override
     public boolean isValid() {
-        return this.isValid;
+        return this.valid;
     }
 
 }

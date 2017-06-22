@@ -10,6 +10,6 @@ package com.github.andyshaox.baker.core;
  *
  */
 public interface CoordinationConfig {
-    String coordiantionType();
+    String getCoordiantionType();
     boolean isValid();
 }
