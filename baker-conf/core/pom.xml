@@ -14,4 +14,12 @@
     <description>Dynamic Projection Manager Framework</description>
     <url>https://github.com/Andy-Shao/GearEE-Baker</url>
     <inceptionYear>2017</inceptionYear>
+    
+    <dependencies>
+    	<dependency>
+    		<groupId>com.github.Andy-Shao</groupId>
+    		<artifactId>GearEE-Baker-Core</artifactId>
+    		<version>${gear.version}</version>
+    	</dependency>
+    </dependencies>
 </project>

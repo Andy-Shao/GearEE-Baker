@@ -4,3 +4,4 @@ server:
 Baker:
   coordination:
     type: coordination01
+    isValid: true

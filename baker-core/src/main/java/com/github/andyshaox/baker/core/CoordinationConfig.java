@@ -1,4 +1,4 @@
-package com.github.andyshaox.baker.conf.vo;
+package com.github.andyshaox.baker.core;
 
 /**
  * 
@@ -9,7 +9,7 @@ package com.github.andyshaox.baker.conf.vo;
  * @author Andy.Shao
  *
  */
-public interface CoordinationStaticArgs {
+public interface CoordinationConfig {
     String coordiantionType();
     boolean isValid();
 }
