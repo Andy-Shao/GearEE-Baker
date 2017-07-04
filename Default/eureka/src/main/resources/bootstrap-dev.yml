@@ -2,7 +2,7 @@ spring:
   application:
     name: Baker-Register-Service
   profiles:
-    active: local
+    active: dev
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://173.169.0.101:8888
