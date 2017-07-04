@@ -1,10 +1,12 @@
 server:
-  port: 8890
+  port: 8080
   
 spring:
+  profiles:
+    active: dev
   cloud:
     config:
       server:
         git:
           uri: https://github.com/Andy-Shao/GearEE-Baker
-          searchPaths: Default/conf/local
+          searchPaths: Default/conf/dev

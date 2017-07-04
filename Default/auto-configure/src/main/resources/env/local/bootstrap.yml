@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Baker-Static-Configure-Service
+  profiles:
+    active: local
