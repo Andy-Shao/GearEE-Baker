@@ -1,0 +1,2 @@
+* use nginx for loader balance
+* docker run -d --network <user define network> --ip <defined ip> gearee-baker/auto-configure
