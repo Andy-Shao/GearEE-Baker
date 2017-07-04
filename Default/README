@@ -1,0 +1,3 @@
+* package use -P
+  mvn -Plocal clean package
+  mvn -Pdev clean package
