@@ -1,2 +1,9 @@
+##Option I
 * use nginx for loader balance
 * docker run -d --network <user define network> --ip <defined ip> gearee-baker/auto-configure
+
+##Option II
+* docker service create -p 8888:8888 --name conf01 gearee-baker/auto-configure
+* docker service create -p 8889:8888 --name conf02 gearee-baker/auto-configure
+* dodker service create -p 80:80 --name conf-balance nginx  
+* use nginx load balance 8888 port and 8889 port
